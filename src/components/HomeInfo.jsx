@@ -17,8 +17,8 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          GenerativeAI enabled NFT Marketplace for <br /> Web3 enthusiasts, NFT
-          artists and AI artists
+          GenerativeAI enabled NFT Marketplace
+          <br />
         </p>
 
         <Link
@@ -56,12 +56,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          Want to know more about FusionwaveAI <br /> We are just a few
-          keystrokes away
+          Want to know more about FusionwaveAI <br />
         </p>
 
         <Link to="/contact" className="neo-brutalism-white neo-btn">
-          About Us
+          Connect with Us
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
