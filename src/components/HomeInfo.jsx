@@ -17,7 +17,8 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          GenerativeAI enabled <br /> NFT Marketplace
+          GenerativeAI enabled NFT Marketplace for <br /> Web3 enthusiasts, NFT
+          artists and AI artists
         </p>
 
         <Link
@@ -36,7 +37,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium text-center sm:text-xl">
-          NFT Card style on-chain <br /> 2-player battle game the impact?
+          NFT Card style fully on-chain <br /> 2-player battle game
         </p>
 
         <Link
