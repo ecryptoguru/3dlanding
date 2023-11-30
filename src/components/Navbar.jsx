@@ -12,18 +12,14 @@ const Navbar = () => {
         <NavLink
           to="https://nft.fusionwaveai.com/"
           target="_blank"
-          className={({ isActive }) =>
-            isActive ? "text-blue-600" : "text-black"
-          }
+          className="text-black"
         >
           FusionwaveNFT
         </NavLink>
         <NavLink
           to="https://game.fusionwaveai.com/"
           target="_blank"
-          className={({ isActive }) =>
-            isActive ? "text-blue-600" : "text-black"
-          }
+          className="text-black"
         >
           FusionFight
         </NavLink>
