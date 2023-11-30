@@ -10,20 +10,22 @@ const Navbar = () => {
       </NavLink>
       <nav className="flex text-lg gap-7 font-medium">
         <NavLink
-          to="/about"
+          to="https://nft.fusionwaveai.com/"
+          target="_blank"
           className={({ isActive }) =>
             isActive ? "text-blue-600" : "text-black"
           }
         >
-          About
+          FusionwaveNFT
         </NavLink>
         <NavLink
-          to="/projects"
+          to="https://game.fusionwaveai.com/"
+          target="_blank"
           className={({ isActive }) =>
             isActive ? "text-blue-600" : "text-black"
           }
         >
-          Projects
+          FusionFight
         </NavLink>
       </nav>
     </header>
