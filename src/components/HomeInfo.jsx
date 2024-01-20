@@ -9,7 +9,7 @@ const HomeInfo = ({ currentStage }) => {
         Welcome to
         <span className="font-semibold mx-2 text-white">FusionwaveAI</span>
         <br />
-        Fusion of Web3 and GenerativeAI
+        Building an AI driven Metaverse
       </h1>
     );
 
